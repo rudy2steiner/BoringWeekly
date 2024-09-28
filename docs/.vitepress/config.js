@@ -5,7 +5,7 @@ import path from 'path'
 
 export default defineConfig({
   ignoreDeadLinks: true,
-  title: 'ruanyf-weekly',
+  title: 'Boring Weekly',
   description: '阮一峰的技术周刊',
   lastUpdated: true,
   cleanUrls: true,
@@ -26,6 +26,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: '科技, 分享, 开源' }],
     ['meta', { property: 'og:image', content: 'https://ruanyf-weekly.plantree.me/thumbnail.jpg' }],
     ['meta', { property: 'og:url', content: 'https://ruanyf-weekly.plantree.me/' }],
+    ['meta', { property: 'keywords', content: 'tech weekly,科技,分享,开源,周刊' }],
     // google analytics
     ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-2QFP04Q1TY' }],
     ['script', {}, `window.dataLayer = window.dataLayer || [];
