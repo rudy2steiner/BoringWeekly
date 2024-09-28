@@ -24,9 +24,9 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: '阮一峰的技术周刊 | 小站' }],
     ['meta', { property: 'og:description', content: '科技, 分享, 开源' }],
-    ['meta', { property: 'og:image', content: 'https://ruanyf-weekly.plantree.me/thumbnail.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://ruanyf-weekly.plantree.me/' }],
-    ['meta', { property: 'keywords', content: 'tech weekly,科技,分享,开源,周刊' }],
+    ['meta', { property: 'og:image', content: 'https://www.boringweekly.com/thumbnail.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://www.boringweekly.com/' }],
+    ['meta', { name: 'keywords', content: 'tech weekly,open source,share,科技,分享,开源,周刊' }],
     // google analytics
     ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-2QFP04Q1TY' }],
     ['script', {}, `window.dataLayer = window.dataLayer || [];
