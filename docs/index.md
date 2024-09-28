@@ -14,7 +14,7 @@ hero:
       link: /weekly/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/plantree/ruanyf-weekly
+      link: https://github.com/rudy2steiner/BoringWeekly
 
 features:
   - title: 及时更新
